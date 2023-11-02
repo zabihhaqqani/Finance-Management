@@ -50,6 +50,14 @@ const NavBar = () => {
             Reports
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="https://github.com/zabihhaqqani/Finance-Management"
+            className={getActiveStyle}
+          >
+            Github
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
