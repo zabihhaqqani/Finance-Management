@@ -1,0 +1,17 @@
+.report-container {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s;
+  width: fit-content;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+}
+
+.report-container-main {
+  display: flex;
+  justify-content: center;
+}
+.report-container p {
+  margin: 0.5rem;
+}

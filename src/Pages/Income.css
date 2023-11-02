@@ -1,0 +1,80 @@
+/* Default styles for larger screens */
+.table-container {
+    display: flex;
+    justify-content: center;
+ 
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  /* select {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */
+  
+  table {
+    width: 800px;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th {
+    background-color: #0a0a0af1;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #000000;
+  }
+  
+  button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  td[colspan="4"] {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .table-container {
+      display: flex;
+      justify-content: center;
+    }
+  
+    table {
+      width: 95%;
+      font-size: 14px;
+      margin-top: 10px;
+      border: 1px solid #000000;
+      padding: 5px;
+    }
+  
+    select {
+      margin: 10px auto;
+    }
+  
+    button {
+      margin: 10px auto;
+    }
+  }
+  
+
+  .label{
+    margin: 5px;
+  }
