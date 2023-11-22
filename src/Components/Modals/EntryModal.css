@@ -62,13 +62,6 @@ form select {
   text-align: center;
 }
 
-/* Responsive Layout */
-@media (max-width: 768px) {
-  .modal-content {
-    width: 80%;
-  }
-}
-
 .close-container {
   display: flex;
   justify-content: right;
@@ -82,4 +75,29 @@ form select {
   padding: 0.5rem;
   margin: 0.5rem;
   width: auto;
+  font-size: 18px;
+}
+
+.modal-content select {
+  width: 96%;
+  font-size: 18px;
+}
+
+.modal-content label {
+  font-size: 20px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 80%;
+  }
+
+  .modal-content input {
+    font-size: 14px;
+  }
+
+  .modal-content select {
+    font-size: 14px;
+  }
 }
