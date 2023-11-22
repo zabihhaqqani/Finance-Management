@@ -59,7 +59,7 @@ const Income = () => {
       <button onClick={() => setIsOpen(!isOpen)}>Add Income Entry</button>
 
       <div>
-        <div>
+        <div className="sort-container">
           <label
             className="label"
             htmlFor="highest"

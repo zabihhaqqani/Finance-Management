@@ -61,7 +61,7 @@ const Expenses = () => {
       <button onClick={() => setIsOpen(!isOpen)}>Add Expense Entry</button>
 
       <div>
-        <div>
+        <div className="sort-container">
           <label
             className="label"
             htmlFor="highest"

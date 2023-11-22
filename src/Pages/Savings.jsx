@@ -62,7 +62,7 @@ const Savings = () => {
       <button onClick={() => setIsOpen(!isOpen)}>Add Savings Entry</button>
 
       <div>
-        <div>
+        <div className="sort-container">
           <label
             className="label"
             htmlFor="highest"

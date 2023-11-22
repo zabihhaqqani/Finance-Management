@@ -15,7 +15,7 @@
   display: block;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
 }
@@ -69,11 +69,17 @@ form select {
   }
 }
 
-.close-container{
+.close-container {
   display: flex;
   justify-content: right;
 }
 
-.close{
+.close {
   font-size: 50px;
+}
+
+.modal-content input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: auto;
 }
